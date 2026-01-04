@@ -2,9 +2,6 @@ import { AnyVNode } from "../core/vnode";
 import { Widget } from "../core/widget";
 
 export class Text extends Widget {
-    render(): Widget {
-        return this;
-    }
     constructor(private value: string) {
         super()
     }

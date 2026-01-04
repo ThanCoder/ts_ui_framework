@@ -1,4 +1,4 @@
-import { Element } from './widgets/element';
+import { Element } from './core/element';
 import { Text } from './widgets/text'
 
 export class App {
